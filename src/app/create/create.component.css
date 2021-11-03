@@ -1,0 +1,52 @@
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#login img{
+    width: 15%;
+}
+
+#login h1 span{
+    color: red;
+}
+
+#login form{
+    width: 50%;
+}
+
+
+#login .btn-group{
+    display: flex;
+    justify-content: space-around;
+}
+
+#login .btn-group .btn-1{
+    width: 25%;
+    padding: 0.5vh 3vh;
+    border-radius: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+#login .btn-group .btn-2{
+    width: 25%;
+    padding: 0.5vh 3vh;
+    border-radius: 50px;
+    background-color:white;
+    border: 1px solid red;
+    color: red;
+}
+
+.create{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.create a{
+    color: red;
+    text-decoration: none;
+}
