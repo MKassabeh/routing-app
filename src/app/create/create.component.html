@@ -1,23 +1,29 @@
 <div class="container" id="login">
-    <img src="../../assets/Nouveau dossier/pokeball.png" alt="">
+    <img class="img-top" src="../../assets/img/pokeball.png" alt="">
     <h1><span class="title-red">Create </span> Your Account</h1>
     <form>
-        <div class="mb-3">
+        
+        <div class="group mb-3">
           <label for="exampleUsername" class="form-label">Username</label>
           <input type="text" class="form-control" id="exampleUsernam" aria-describedby="usernameHelp">
+          <img src="../../assets/img/pokeballogo.png" class="icon-outside" alt="">
         </div>
-        <div class="mb-3">
+        <div class="group mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <img src="../../assets/img/pokeballogo.png" class="icon-outside" alt="">
           </div>
-        <div class="mb-3">
+        <div class="group mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
+            <img src="../../assets/img/pokeballogo.png" class="icon-outside" alt="">
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Confirm Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
+        <div class="group mb-3">
+          <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+          <input type="password" class="form-control" id="exampleInputPassword2">
+          <img src="../../assets/img/pokeballogo.png" class="icon-outside" alt="">
         </div>
-            <button type="submit" class="btn-2 btn-warning">Create</button>
+            <button type="submit" class="btn-2">Create</button>
+            <a [routerLink]="['']" class="back"><i class="fas fa-undo"></i>   Back to Login</a>
       </form>
 </div>

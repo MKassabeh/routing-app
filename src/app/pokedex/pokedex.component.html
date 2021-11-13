@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+<div class=" container card-pokemon">
+    <app-pokemon-pokedex class="card" *ngFor="let poke of api.pokemon "
+    [id]="poke.id"
+    [img]="poke.image_logo_url">
+    </app-pokemon-pokedex>
+  </div>
+  

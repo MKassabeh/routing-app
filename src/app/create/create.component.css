@@ -6,39 +6,28 @@
     height: 100vh;
 }
 
-#login img{
+#login .img-top{
     width: 15%;
 }
 
 #login h1 span{
-    color: red;
+    color: rgba(206, 29, 29, 0.8);
 }
 
 #login form{
-    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#login form input{
+    width:50vh;
+}
 
 #login .btn-group{
     display: flex;
     justify-content: space-around;
-}
-
-#login .btn-group .btn-1{
-    width: 25%;
-    padding: 0.5vh 3vh;
-    border-radius: 50px;
-    background-color: white;
-    border: 1px solid grey;
-    color: grey;
-}
-#login .btn-group .btn-2{
-    width: 25%;
-    padding: 0.5vh 3vh;
-    border-radius: 50px;
-    background-color:white;
-    border: 1px solid red;
-    color: red;
 }
 
 .create{
@@ -47,6 +36,45 @@
 }
 
 .create a{
-    color: red;
+    color: rgba(206, 29, 29, 0.8);
     text-decoration: none;
+}
+
+.group{
+    position: relative;
+}
+.icon-outside{
+    position: absolute;
+    bottom:13%;
+    left: -10%;
+    width: 5%;
+}
+
+.btn-2{
+    width: 25%;
+    padding: 0.5vh 3vh;
+    border-radius: 50px;
+    background-color:white;
+    border: 1px solid rgba(206, 29, 29, 0.8);
+    color: rgba(206, 29, 29, 0.8);
+    margin: 2vh 0vh 10vh 0vh; 
+}
+
+.btn-2:hover{
+    background-color: rgba(206, 29, 29, 0.8);
+    color: white;
+}
+
+.back{
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+input:focus{
+    border-color: rgba(206, 29, 29, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px rgba(206, 29, 29, 0.8);
+    box-shadow: 0 0 8px rgba(206, 29, 29, 0.8) !important;
 }

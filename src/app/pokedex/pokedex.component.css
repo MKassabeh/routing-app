@@ -1,0 +1,19 @@
+.card-pokemon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+}
+
+
+.card{
+    margin-top: 5vh;
+    height: max-content;
+    border: none;
+}
+
+
+    /* .card-img-top{
+        height: 10px;
+    } */

@@ -1,0 +1,41 @@
+.navbar{
+    -webkit-box-shadow: inset 0px 33px 12px 0px rgba(193,0,0,0.66); 
+box-shadow: inset 0px 33px 12px 0px rgba(193,0,0,0.66);
+padding-top: 3vh;
+
+}
+
+
+.navbar .navbar-nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;    
+  
+}
+
+.navbar .navbar-nav a{
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.navbar .navbar-nav a:last-child{
+    color: red;
+}
+
+.navbar .navbar-nav img{
+    width: 4%;
+    margin: 0vh 4vh;
+    transform: rotate(330deg);
+}
+
+.red-circle{
+    height: 10px;
+    width: 10px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 2vh;
+}
+

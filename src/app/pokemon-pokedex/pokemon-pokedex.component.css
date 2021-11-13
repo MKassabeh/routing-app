@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    padding: 3vh;
+    border: none;
+    
+}
+
+.card .card-img-top{
+    height:7vh;
+width: 7vh;
+}
+
+
+.card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

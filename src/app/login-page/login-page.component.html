@@ -1,0 +1,13 @@
+<app-header></app-header>
+
+  <section class="guest-content">
+      <img class="top-img" src="../../assets/img/pokemon-login.jpg" alt="">
+      <h5 class="text-top"><span>All </span>Generation </h5>
+
+      <div class="bot-img">
+      <img class="sala" *ngFor="let book of api.pokemon | randomShow:1" [src]="book.image_url" alt="">
+      <h5 id="accordeon" class="text-sala"><span>First </span>Generation </h5>
+      <img class="heriss" src="../../assets/img/herissandre.png" alt="">
+      <h5 id="accordeon" class="text-heri"><span>Second </span>Generation </h5>
+    </div>
+  </section>

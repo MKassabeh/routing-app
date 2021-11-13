@@ -8,10 +8,11 @@
 
 #login img{
     width: 15%;
+    transform: rotate(330deg);
 }
 
 #login h1 span{
-    color: red;
+    color: rgba(206, 29, 29, 0.8);
 }
 
 #login form{
@@ -32,21 +33,36 @@
     border: 1px solid grey;
     color: grey;
 }
+#login .btn-group .btn-1:hover{
+    background-color: gray;
+    color: white;
+}
 #login .btn-group .btn-2{
     width: 25%;
     padding: 0.5vh 3vh;
     border-radius: 50px;
     background-color:white;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid rgba(206, 29, 29, 0.8);
+    color: rgba(206, 29, 29, 0.8);
+}
+#login .btn-group .btn-2:hover{
+    background-color: rgba(206, 29, 29, 0.8);
+    color: white;
 }
 
 .create{
     text-align: center;
     margin-top: 4vh;
 }
-
+input:focus{
+    border-color: rgba(206, 29, 29, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px rgba(206, 29, 29, 0.8);
+    box-shadow: 0 0 8px rgba(206, 29, 29, 0.8) !important;
+}
 .create a{
-    color: red;
+    color: rgba(206, 29, 29, 0.8);
     text-decoration: none;
 }
+
